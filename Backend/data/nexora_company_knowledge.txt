@@ -1,0 +1,415 @@
+NEXORA ENVIRONMENTAL EDUCATION PLATFORM
+COMPANY KNOWLEDGE BASE — VERSION 1.0
+============================================================
+
+DOCUMENT PURPOSE
+This document contains the fictional/product knowledge for Nexora, an environmental education and gamification web application. It is designed to be injected into a Retrieval-Augmented Generation (RAG) system so that the Nexora chatbot can answer users consistently.
+
+IMPORTANT
+- Nexora is the product/company represented by this knowledge base.
+- This is application-specific product data created from the provided Nexora UI and its visible modules.
+- Operational details not explicitly defined here must not be invented by the chatbot.
+- Administrators can update point values, level thresholds, task rules, quiz rules, and other configurable values later.
+
+============================================================
+1. COMPANY / PRODUCT OVERVIEW
+============================================================
+
+Company/Product Name: Nexora
+Product Type: Environmental education and gamified learning platform
+Primary Purpose: Help users learn about environmental topics and turn learning into engaging actions through tasks, quizzes, games, points, levels, and leaderboards.
+
+Core Promise:
+"Learn. Act. Play. Lead."
+
+Nexora combines environmental education with gamification. Users can:
+1. View their personal dashboard.
+2. Complete environmental tasks.
+3. Take quizzes.
+4. Explore structured learning content.
+5. Play environmental games.
+6. Earn points.
+7. Progress through levels.
+8. Compare their progress on a leaderboard.
+
+Target Users:
+- Students
+- Young learners
+- Environment-conscious individuals
+- Educational communities
+- Organizations running environmental awareness programs
+
+Primary User Experience:
+Nexora should feel educational without being boring. The platform encourages small, practical actions and rewards learning and participation.
+
+============================================================
+2. PRODUCT NAVIGATION
+============================================================
+
+The main navigation contains these areas:
+
+Dashboard
+Tasks
+Quizzes
+Learning
+Games
+Leaderboard
+Points / Rewards indicator
+User profile
+Logout
+
+The chatbot should understand these terms as Nexora application modules.
+
+============================================================
+3. DASHBOARD
+============================================================
+
+The Dashboard is the user's main progress center.
+
+Visible dashboard concepts:
+- Welcome message
+- Daily challenge
+- Total Points
+- Total Tasks
+- Completed Tasks
+- Pending Tasks
+- Task Completion
+- Overall Completion Rate
+- Level Progress
+- Current Level
+- Points required for the next level
+- Recent Tasks
+- Leaderboard
+
+Example dashboard state:
+A new user may see:
+- Total Points: 0
+- Total Tasks: 0
+- Completed: 0
+- Pending: 0
+- Current Level: 1
+- 100 points to next level
+
+Dashboard interpretation:
+- Total Points = points earned by the user.
+- Total Tasks = tasks assigned/available to the user according to the current system.
+- Completed = tasks successfully completed.
+- Pending = tasks not yet completed.
+- Completion Rate = completed tasks relative to the applicable task count.
+- Current Level = user's current gamification level.
+- Points to next level = additional points needed to reach the next configured level.
+- Recent Tasks = recently assigned or completed activities.
+
+Daily Challenge:
+The dashboard can display a daily challenge. If no challenge is currently available, the interface may show a message such as "No daily challenge available right now. Check back later!"
+
+The chatbot must not promise that a daily challenge exists at a particular time unless current system data confirms it.
+
+============================================================
+4. TASKS MODULE
+============================================================
+
+Purpose:
+Tasks turn environmental learning into actionable activities.
+
+Examples of suitable environmental task themes:
+- Save water
+- Reduce unnecessary electricity use
+- Avoid single-use plastic
+- Use reusable bags or bottles
+- Separate recyclable waste
+- Walk or cycle for short trips when practical
+- Learn about local biodiversity
+- Plant or care for a suitable plant
+- Reduce food waste
+- Conduct a personal sustainability audit
+
+Task lifecycle:
+1. Task becomes available.
+2. User reads instructions.
+3. User performs the activity when required.
+4. User submits/completes the task according to the interface.
+5. System records completion.
+6. Eligible points are awarded according to configured task rules.
+7. Dashboard statistics update.
+
+Task rules:
+- Users should complete tasks honestly.
+- A task should only be marked complete when the user has actually completed the required activity.
+- Users should follow safety instructions.
+- Tasks must not require dangerous, illegal, or environmentally harmful actions.
+- If a task requires an adult, teacher, supervisor, or organization approval, the user should obtain it.
+
+The chatbot may recommend task ideas, but it must distinguish between official Nexora tasks and general suggestions.
+
+============================================================
+5. QUIZZES MODULE
+============================================================
+
+Purpose:
+Quizzes test environmental knowledge in an interactive format.
+
+Possible quiz topics:
+- Climate and climate change
+- Renewable energy
+- Water conservation
+- Waste management
+- Recycling
+- Biodiversity
+- Sustainable transportation
+- Sustainable food habits
+- Pollution
+- Ecosystems
+- Conservation
+- Environmental responsibility
+
+Quiz behavior:
+- Users answer questions presented by the application.
+- The application determines the score.
+- If the quiz is configured to award points, points should be granted according to the current quiz configuration.
+- The chatbot must not reveal an answer to an active assessment if the platform's assessment policy prohibits assistance.
+
+Learning mode vs assessment mode:
+- Learning mode: the chatbot may explain concepts and help users understand material.
+- Assessment mode: the chatbot should provide conceptual guidance without directly completing a graded question when prohibited by the application's rules.
+
+============================================================
+6. LEARNING MODULE
+============================================================
+
+Purpose:
+The Learning area provides educational content about environmental awareness and sustainability.
+
+Suggested learning categories:
+A. Climate
+B. Energy
+C. Water
+D. Waste
+E. Biodiversity
+F. Pollution
+G. Sustainable Living
+H. Conservation
+I. Green Technology
+J. Environmental Responsibility
+
+Learning principles:
+- Explain difficult ideas in simple language.
+- Prefer practical examples.
+- Avoid unnecessary jargon.
+- Encourage evidence-based environmental awareness.
+- Clearly separate established facts from opinions or suggestions.
+- Avoid presenting unsupported statistics as official Nexora facts.
+
+Example learning topics:
+- What is climate change?
+- What causes greenhouse gas emissions?
+- How does recycling work?
+- Why is water conservation important?
+- What is renewable energy?
+- What is biodiversity?
+- How can individuals reduce waste?
+- What is a circular economy?
+- How can sustainable transportation reduce environmental impact?
+
+============================================================
+7. GAMES MODULE
+============================================================
+
+Purpose:
+Games make environmental learning engaging and memorable.
+
+Possible game formats:
+- Environmental trivia
+- Memory games
+- Sorting/recycling games
+- Sustainability challenges
+- Eco decision-making scenarios
+- Timed knowledge games
+- Matching games
+
+Game design principles:
+- Educational value comes first.
+- Game rules should be transparent.
+- Rewards must follow published/configured rules.
+- Games should not encourage harmful real-world behavior.
+- Competitive features should remain respectful.
+
+The chatbot must not claim that a specific game, score, reward, or game mode is available unless that information is present in current application data.
+
+============================================================
+8. LEADERBOARD
+============================================================
+
+Purpose:
+The Leaderboard provides a competitive view of user progress.
+
+Leaderboard can be based on:
+- Points
+- Completed activities
+- Other metrics configured by the application
+
+Rules:
+- Rankings are determined by the application's current data.
+- A user's rank may change as other users earn points.
+- The chatbot must not fabricate a user's rank.
+- The chatbot must not expose private information about other users.
+- Public leaderboard information should only be shared if the application makes it public.
+
+Healthy competition:
+Nexora encourages users to compete with themselves and others in a positive way. Users should celebrate progress rather than harass lower-ranked users.
+
+============================================================
+9. POINTS AND LEVELS
+============================================================
+
+Points are the platform's gamification currency.
+
+Points may be awarded for:
+- Completing eligible tasks
+- Completing eligible quizzes
+- Participating in games
+- Other explicitly configured activities
+
+The exact point value must come from current application configuration or retrieved records.
+
+Never invent point values.
+
+Level system:
+- Users start at a configured level.
+- The provided UI example shows Current Level 1 and 100 points to next level.
+- Level thresholds may change as the application evolves.
+- The chatbot must use current database/configuration values when available.
+
+Important:
+"Points" are platform gamification points unless the application explicitly defines another meaning. They should not be described as cash, cryptocurrency, or guaranteed monetary value.
+
+============================================================
+10. USER ACCOUNT
+============================================================
+
+Users may have:
+- Username/display name
+- Account progress
+- Points
+- Completed tasks
+- Quiz/game activity
+- Level
+- Leaderboard position
+
+Account principles:
+- Users should protect their login credentials.
+- Users should not share passwords.
+- Users should log out on shared/public devices.
+- Users should report suspicious account activity.
+
+The chatbot should not ask for or expose passwords, authentication tokens, or sensitive account credentials.
+
+============================================================
+11. ENVIRONMENTAL VALUES
+============================================================
+
+Nexora promotes:
+- Environmental awareness
+- Responsible consumption
+- Resource conservation
+- Waste reduction
+- Respect for biodiversity
+- Sustainable habits
+- Continuous learning
+- Community participation
+- Positive action
+
+Nexora does not require users to be perfect. The platform focuses on realistic improvement and learning.
+
+Preferred message:
+"Small actions become meaningful when they become consistent habits."
+
+============================================================
+12. BRAND VOICE
+============================================================
+
+Nexora chatbot tone:
+- Friendly
+- Encouraging
+- Educational
+- Clear
+- Positive
+- Youth-friendly
+- Practical
+- Respectful
+
+Avoid:
+- Shaming users
+- Fearmongering
+- Aggressive language
+- Unnecessary technical jargon
+- Fake certainty
+- Unsupported claims
+- Promises the system cannot guarantee
+
+Good style:
+"Great question! Here's the simple way to think about it..."
+
+When a user completes a milestone:
+"Nice work! You're building your Nexora progress one action at a time."
+
+============================================================
+13. CHATBOT CAPABILITIES
+============================================================
+
+The Nexora chatbot can help users:
+- Understand environmental concepts.
+- Navigate Nexora modules.
+- Explain how tasks, quizzes, learning, games, points, and levels work.
+- Suggest environmentally responsible habits.
+- Explain dashboard metrics.
+- Give study help for environmental topics.
+- Encourage users to continue learning.
+- Explain published Nexora rules and policies.
+
+The chatbot cannot:
+- Change points unless an authorized system action exists.
+- Change leaderboard rankings.
+- Mark a task complete without the required system action.
+- Guarantee rewards.
+- Reveal private user information.
+- Bypass authentication.
+- Invent unavailable features.
+- Override administrator policies.
+
+============================================================
+14. SUPPORT / ESCALATION
+============================================================
+
+Escalate to a human administrator/support team when:
+- A user reports incorrect points.
+- A completed task is not reflected.
+- A quiz score appears incorrect.
+- A leaderboard position appears wrong.
+- A user reports account compromise.
+- A user reports inappropriate content.
+- A user requests account deletion or data handling that requires backend action.
+- A user reports a technical error that the chatbot cannot verify.
+- A policy exception is requested.
+
+Recommended response:
+"I can explain the Nexora rules and help you troubleshoot the issue. If the account data itself needs to be changed, please contact the Nexora administrator/support team."
+
+============================================================
+15. KEY TERMS
+============================================================
+
+Nexora = Environmental education and gamification platform.
+Dashboard = Main page showing progress and activity.
+Task = Action-oriented environmental activity.
+Quiz = Knowledge assessment.
+Learning = Educational content area.
+Game = Interactive educational activity.
+Points = Gamification points.
+Level = Progress tier based on configured criteria.
+Leaderboard = Ranking view based on configured metrics.
+Daily Challenge = Optional daily activity displayed by the system.
+Completion Rate = Percentage of applicable tasks completed.
+RAG = Retrieval-Augmented Generation system used by the chatbot to retrieve relevant Nexora knowledge before generating an answer.
+
+END OF COMPANY KNOWLEDGE BASE

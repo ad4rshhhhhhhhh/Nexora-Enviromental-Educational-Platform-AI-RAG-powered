@@ -1,0 +1,218 @@
+NEXORA CONTENT AND FEATURE CATALOG
+============================================================
+
+This document provides structured content ideas and feature semantics for the Nexora environmental education platform.
+
+============================================================
+1. TASK CATEGORY CATALOG
+============================================================
+
+WATER
+- Turn off the tap while brushing.
+- Check for unnecessary water wastage.
+- Learn one water-saving technique.
+- Track personal water-saving habits for a day.
+
+ENERGY
+- Switch off unused lights.
+- Unplug unnecessary devices when appropriate.
+- Learn about renewable energy.
+- Identify energy-consuming appliances at home.
+
+WASTE
+- Separate recyclable and non-recyclable waste.
+- Avoid unnecessary single-use packaging.
+- Reuse an item instead of discarding it.
+- Learn the basics of waste segregation.
+
+PLASTIC
+- Carry a reusable bottle.
+- Use a reusable shopping bag.
+- Identify common single-use plastics.
+- Learn about plastic pollution.
+
+TRANSPORT
+- Walk or cycle for a practical short-distance trip when safe.
+- Use public transportation where suitable.
+- Learn how transportation affects emissions.
+
+BIODIVERSITY
+- Learn about a local plant or animal species.
+- Observe biodiversity without disturbing wildlife.
+- Learn why habitats matter.
+- Explore the concept of ecosystem balance.
+
+FOOD
+- Avoid unnecessary food waste.
+- Store food appropriately.
+- Learn about seasonal/local food concepts.
+- Understand the environmental impact of food waste.
+
+============================================================
+2. QUIZ TOPIC CATALOG
+============================================================
+
+BEGINNER
+- Basic environmental terminology
+- Recycling basics
+- Water conservation
+- Energy conservation
+- Pollution basics
+
+INTERMEDIATE
+- Climate systems
+- Renewable energy
+- Biodiversity
+- Waste management
+- Sustainable transportation
+
+ADVANCED
+- Circular economy
+- Life-cycle thinking
+- Climate mitigation vs adaptation
+- Ecosystem services
+- Sustainable development concepts
+
+============================================================
+3. LEARNING MODULE STRUCTURE
+============================================================
+
+Each learning lesson can follow:
+
+1. Topic title
+2. Why it matters
+3. Simple explanation
+4. Real-world example
+5. What users can do
+6. Quick knowledge check
+7. Related Nexora task
+
+Example:
+
+Topic: Water Conservation
+
+Why it matters:
+Freshwater is essential for people, agriculture, ecosystems, and industry.
+
+Simple explanation:
+Water conservation means using water carefully and avoiding unnecessary waste.
+
+What users can do:
+- Fix or report leaks.
+- Avoid leaving taps running unnecessarily.
+- Use water efficiently during daily activities.
+
+Related task:
+"Complete one practical water-saving action today."
+
+============================================================
+4. GAME IDEAS
+============================================================
+
+ECO SORT
+Users sort items into categories such as recyclable, reusable, compostable, or residual waste according to the game's defined rules.
+
+ENERGY MATCH
+Users match common activities with energy-saving practices.
+
+ECO TRIVIA
+Users answer environmental questions under a time or score system.
+
+GREEN DECISION
+Users select the most environmentally responsible option in everyday scenarios.
+
+BIODIVERSITY MATCH
+Users match species, habitats, and conservation concepts.
+
+============================================================
+5. REWARD LANGUAGE
+============================================================
+
+Use encouraging language:
+- "Nice work!"
+- "Eco win!"
+- "You're making progress!"
+- "Keep the streak going!"
+- "One more step toward your next level!"
+- "Knowledge unlocked!"
+- "Great job turning learning into action!"
+
+Do not imply that points have monetary value.
+
+============================================================
+6. DASHBOARD EXPLANATION TEMPLATES
+============================================================
+
+TOTAL POINTS
+"Your total points represent eligible progress you've earned through Nexora activities."
+
+TOTAL TASKS
+"This shows the number of tasks currently counted by the platform."
+
+COMPLETED
+"This shows how many applicable tasks you've completed."
+
+PENDING
+"This shows tasks that remain incomplete."
+
+COMPLETION RATE
+"This indicates how much of your applicable task workload you've completed."
+
+CURRENT LEVEL
+"This is your current Nexora progress level."
+
+POINTS TO NEXT LEVEL
+"This shows how many additional configured points are needed for the next level."
+
+LEADERBOARD
+"This compares eligible user progress according to the platform's ranking rules."
+
+============================================================
+7. EXAMPLE FAQ DATA
+============================================================
+
+Q: What is Nexora?
+A: Nexora is an environmental education and gamification platform where users learn, complete activities, play educational games, earn points, progress through levels, and participate in a leaderboard.
+
+Q: What can I do on Nexora?
+A: You can explore the Dashboard, complete Tasks, take Quizzes, study Learning content, play Games, earn points, progress through levels, and view the Leaderboard.
+
+Q: How do I earn points?
+A: Points may be awarded for eligible activities such as tasks, quizzes, games, or other configured activities. Exact values come from the current Nexora configuration.
+
+Q: How do I level up?
+A: You level up by earning the number of points required by the current level configuration.
+
+Q: What if my points are incorrect?
+A: Contact the Nexora administrator/support team. The chatbot cannot directly change account records unless an authorized backend action is available.
+
+Q: Can I cheat to get points?
+A: No. Nexora is designed around genuine participation. Manipulating tasks, quizzes, games, or rankings is not allowed.
+
+Q: Can the chatbot tell me another user's private information?
+A: No. The chatbot should protect user privacy.
+
+Q: Can the chatbot complete my quiz?
+A: It can explain concepts and help you learn, but it should not bypass a restricted graded assessment.
+
+Q: Why is there no daily challenge?
+A: A daily challenge may not always be available. If the dashboard says none is available, the user should check back later or follow the current application guidance.
+
+Q: What are Nexora points worth in money?
+A: Nexora points are gamification points. The provided product information does not establish a cash value.
+
+============================================================
+8. OUT-OF-SCOPE QUESTIONS
+============================================================
+
+If a user asks about:
+- A feature not documented here
+- An undocumented subscription
+- An undocumented payment
+- An undocumented reward
+- An undocumented integration
+- A private account record unavailable to the chatbot
+
+The chatbot should say it does not have enough official Nexora information and should direct the user to the relevant application/support channel.
+
+END OF CONTENT CATALOG
